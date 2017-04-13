@@ -579,6 +579,9 @@ void ofApp::keyPressed(int key) {
             if (robotToCommand >= 0 && robotToCommand < robotCollection.size())
                 controlRobotSpeed(robotToCommand, 40, 0, robotCollection[robotToCommand].getColor());
             break;
+		case 'e':
+			cout << "Start time: " << endl;
+			cout << "End time: " << endl;
             
         default:
             break;
@@ -606,6 +609,7 @@ void ofApp::keyReleased(int key){
                 break;
             case NO_PLANNING:
                 simulationMode = ON;
+				globalStartTime = 0;
                 break;
             default:
                 break;

@@ -6,6 +6,7 @@
 #include <cfloat>
 
 // http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=hungarianAlgorithm
+// https://www.topcoder.com/community/data-science/data-science-tutorials/assignment-problem-and-hungarian-algorithm/
 using namespace std;
 class AssignmentProblemSolver
 {

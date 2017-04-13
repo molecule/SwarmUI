@@ -14,7 +14,7 @@
 #define TYPE_MOTORS_VELOCITY                0x05
 #define TYPE_STATUS                         0x04
 
-#define NB_ROBOTS                           20
+#define NB_ROBOTS                           500
 #define NB_ROBOTS_PER_RECEIVER				10
 
 #define coordinatesMinX                     70.0f

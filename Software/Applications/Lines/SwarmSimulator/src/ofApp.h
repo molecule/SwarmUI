@@ -70,6 +70,7 @@ private:
     
     uint64_t previousSimulationTimestamp;
 	SimulationMode  simulationMode;
+	uint64_t globalStartTime;
     
     float kSpeed;
     float prefSpeed;
