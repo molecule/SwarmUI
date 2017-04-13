@@ -40,6 +40,41 @@ of the final goal, it stops and orients itself as commanded by the application p
 <img src="Images/local_control.PNG" alt="control" width="700">
 </p>
 
+## Installation
+Download this repo:
+
+```
+git clone git@github.com:molecule/SwarmUI.git
+```
+Install [Openframeworks](https://github.com/openframeworks/openFrameworks). Since I'm using Windows with Visual Studio, I downloaded the appropriate version for my setup.](http://openframeworks.cc/download/)
+
+The Openframeworks (OF) installation will ask you to select Addons. I selected:
+
+```
+ofxNetwork ofxGui ofxOpenCV
+```
+Since I had no idea what was needed.
+
+When opening a new project in OF, you have to setup your directories properly. I copied the SwarmUI folder into the suggested OF folder when creating a new project. Then, you'll want to open up a folder that has a .sln file in it, so VisualStudio knows how to use the project.
+
+```
+C:\Users\Molly\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\apps\myApps\SwarmUI\Software\Applications\Lines
+```
+
+## Building in Visual Studio 2015
+Once you've opened your project with OF, open Build->Build selection to build.
+
+```
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+```
+
+This will generate a .exe file, which when clicked will run the following. Below I built and ran SwarmSimulator:
+![img](http://i.imgur.com/S8XjCi8.png)
+
+
+## Running
+Once you've built the SwarmSimulator, you can click on the generated .exe file to run it. Pressing the spacebar will actually run the simulator so you can see what happens. 
+
 ## Acknowledgments 
 
 This is a joint work between the Shape Lab at Stanford University (USA) and the Aviz team at Inria (France).
