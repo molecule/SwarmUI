@@ -41,12 +41,7 @@ of the final goal, it stops and orients itself as commanded by the application p
 </p>
 
 ## Installation
-Download this repo:
-
-```
-git clone git@github.com:molecule/SwarmUI.git
-```
-Install [Openframeworks](https://github.com/openframeworks/openFrameworks). Since I'm using Windows with Visual Studio, I downloaded the appropriate version for my setup.](http://openframeworks.cc/download/)
+1. Install [Openframeworks](https://github.com/openframeworks/openFrameworks). Since I'm using Windows with Visual Studio, I downloaded [the appropriate version for my setup.](http://openframeworks.cc/download/)
 
 The Openframeworks (OF) installation will ask you to select Addons. I selected:
 
@@ -55,7 +50,19 @@ ofxNetwork ofxGui ofxOpenCV
 ```
 Since I had no idea what was needed.
 
-When opening a new project in OF, you have to setup your directories properly. I copied the SwarmUI folder into the suggested OF folder when creating a new project. Then, you'll want to open up a folder that has a .sln file in it, so VisualStudio knows how to use the project.
+2. When using OF, the directory structure is very important. OF expects apps to be in the apps\myApps folder, so first change to that directory, and then download the repo:
+
+```
+cd C:\Users\Molly\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\apps\myApps\SwarmUI\Software\Applications\Lines
+git clone git@github.com:molecule/SwarmUI.git
+```
+
+When you're finished, the directory structure might look like this:
+```
+C:\Users\Molly\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\apps\myApps\SwarmUI\
+```
+
+3. Then, you'll want to open up a folder that has a .sln file in it, so VisualStudio knows how to use the project.
 
 ```
 C:\Users\Molly\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\apps\myApps\SwarmUI\Software\Applications\Lines
